@@ -1,0 +1,26 @@
+{
+	"name": "linkorb/bus",
+    "description": "Command Bus component",
+    "homepage": "https://github.com/linkorb/bus",
+    "keywords": ["commandbus", "bus", "command", "ddd", "CQRS"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Joost Faassen",
+            "email": "j.faassen@linkorb.com",
+            "role": "Development"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+        "symfony/console": "~2.4",
+        "phpunit/phpunit": "~4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "LinkORB\\Component\\Bus\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
